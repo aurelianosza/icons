@@ -15,6 +15,6 @@ class InstallCommand extends Command
 
     public function handle() : void
     {
-        
+        dd('im here');
     }
 }
