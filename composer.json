@@ -1,0 +1,28 @@
+{
+    "name" : "devsquad/icons",
+    "description"   : "Heroicons blade components to Laravel.",
+    "keywords"  : ["laravel", "icons"],
+    "authors" :[
+        {
+            "name" : "Aureliano Neto",
+            "email" : "aurelianosza@gmail.com"
+        }
+    ],
+    "require" : {
+        "php" : "^8.0",
+        "illuminate/filesystem": "^8.40",
+        "illuminate/support": "^8.40"
+    },
+    "autoload": {
+        "psr-4": {
+            "Icons\\" : "src/"
+        }
+    },
+    "extra" : {
+        "laravel" : {
+            "providers" : [
+                "Laravel\\Icons\\IconsServiceProvider"
+            ]
+        }
+    }
+}
