@@ -18,6 +18,6 @@ class InstallCommand extends Command
     public function handle() : void
     {
         (new Filesystem)->ensureDirectoryExists(resource_path('views/components'));
-        (new FileSystem)->copyDirectory(__DIR__.'/../../icons', resource_path('views/components')); 
+        (new FileSystem)->copyDirectory(__DIR__.'/../../components', resource_path('views/components')); 
     }
 }
