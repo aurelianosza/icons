@@ -21,7 +21,7 @@
     "extra" : {
         "laravel" : {
             "providers" : [
-                "Laravel\\Icons\\IconsServiceProvider"
+                "Icons\\IconsServiceProvider"
             ]
         }
     }
